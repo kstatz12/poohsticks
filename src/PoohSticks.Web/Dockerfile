@@ -11,5 +11,6 @@ RUN dotnet publish --no-restore -c Release -o out ./src/PoohSticks.Web/PoohStick
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 WORKDIR /app
+ENV ASPNETCORE_URLS=http://*:8080
 COPY --from=build /build/out .
 ENTRYPOINT ["dotnet", "PoohSticks.Service.dll"]

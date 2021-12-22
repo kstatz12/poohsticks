@@ -1,0 +1,12 @@
+.git
+
+**/bin
+**/obj
+**/out
+**/.vscode
+**/.vs
+.dotnet
+.nuget
+.local
+.Microsoft.DotNet.ImageBuilder
+pkgs

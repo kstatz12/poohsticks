@@ -10,11 +10,7 @@ RUN curl -OL https://github.com/protocolbuffers/protobuf/releases/download/v3.6.
 WORKDIR /build
 
 COPY src/PoohSticks.Common ./src/PoohSticks.Common
-COPY src/PoohSticks.Messages ./src/PoohSticks.Messages
-COPY src/PoohSticks.Service ./src/PoohSticks.Service
 COPY src/PoohSticks.Web ./src/PoohSticks.Web
 
 RUN dotnet restore ./src/PoohSticks.Common/PoohSticks.Common.csproj
-RUN dotnet restore ./src/PoohSticks.Messages/PoohSticks.Messages.csproj
-RUN dotnet restore ./src/PoohSticks.Service/PoohSticks.Service.csproj
 RUN dotnet restore ./src/PoohSticks.Web/PoohSticks.Web.csproj

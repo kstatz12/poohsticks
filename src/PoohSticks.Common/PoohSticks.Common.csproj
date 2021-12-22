@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\PoohSticks.Messages\PoohSticks.Messages.csproj" />
+    <PackageReference Include="MessagePack" Version="2.3.85" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.26.0" />
+    <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="NHibernate" Version="5.3.10" />
+    <PackageReference Include="murmurhash" Version="1.0.3" />
   </ItemGroup>
 
   <PropertyGroup>

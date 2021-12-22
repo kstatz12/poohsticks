@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Common", "PoohSticks.Common\PoohSticks.Common.csproj", "{18F94A19-4743-44BD-B584-5DE9D573B8F7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Web", "PoohSticks.Web\PoohSticks.Web.csproj", "{1BCC769F-027A-463D-8BBC-D3975D6CA209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Service", "PoohSticks.Service\PoohSticks.Service.csproj", "{5B725E57-8F63-4B2B-BAEE-E2DB8005ADAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Common", "PoohSticks.Common\PoohSticks.Common.csproj", "{3D43DF01-584D-4644-9A74-870567D4205A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Messages", "PoohSticks.Messages\PoohSticks.Messages.csproj", "{521A3FF2-F88D-4302-8053-3AA3114FD271}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoohSticks.Tests", "PoohSticks.Tests\PoohSticks.Tests.csproj", "{385A79FF-19CE-43B5-8C1B-8FE9C316CA48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +18,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18F94A19-4743-44BD-B584-5DE9D573B8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18F94A19-4743-44BD-B584-5DE9D573B8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18F94A19-4743-44BD-B584-5DE9D573B8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18F94A19-4743-44BD-B584-5DE9D573B8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BCC769F-027A-463D-8BBC-D3975D6CA209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BCC769F-027A-463D-8BBC-D3975D6CA209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BCC769F-027A-463D-8BBC-D3975D6CA209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BCC769F-027A-463D-8BBC-D3975D6CA209}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B725E57-8F63-4B2B-BAEE-E2DB8005ADAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B725E57-8F63-4B2B-BAEE-E2DB8005ADAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B725E57-8F63-4B2B-BAEE-E2DB8005ADAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B725E57-8F63-4B2B-BAEE-E2DB8005ADAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{521A3FF2-F88D-4302-8053-3AA3114FD271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{521A3FF2-F88D-4302-8053-3AA3114FD271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{521A3FF2-F88D-4302-8053-3AA3114FD271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{521A3FF2-F88D-4302-8053-3AA3114FD271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D43DF01-584D-4644-9A74-870567D4205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D43DF01-584D-4644-9A74-870567D4205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D43DF01-584D-4644-9A74-870567D4205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D43DF01-584D-4644-9A74-870567D4205A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385A79FF-19CE-43B5-8C1B-8FE9C316CA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385A79FF-19CE-43B5-8C1B-8FE9C316CA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385A79FF-19CE-43B5-8C1B-8FE9C316CA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385A79FF-19CE-43B5-8C1B-8FE9C316CA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

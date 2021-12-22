@@ -1,7 +1,7 @@
 version: "3.0"
 
 services:
-  postgres:
+  poohsticksdb:
     image: postgres:11
     container_name: postgres
     environment:
@@ -21,15 +21,6 @@ services:
       dockerfile: src/PoohSticks.Web/Dockerfile
     ports:
       - 8080:8080
-  service:
-    container_name: service
-    image: service
-    build:
-      context: .
-      dockerfile: src/PoohSticks.Service/Dockerfile
-    depends_on:
-      - "postgres"
-    restart: on-failure:5
 volumes:
   pgdata:
     name: poohsticks-pgdata
